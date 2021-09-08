@@ -6,7 +6,9 @@
 body{
   font-size: 20px;
   font-family: 'Libre Franklin', sans-serif;
-  width: 100%;
+  width: 98%;
+  
+  border: 5px solid black;
 }
 .container h1{
   font-size: 1.2em;
@@ -36,7 +38,7 @@ input{
   border: 1px solid rgb(235, 235, 235);
   padding: 10px 5px 10px;
   border-radius: 20px;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   outline: none;
 }
 input::placeholder{
@@ -49,10 +51,12 @@ button{
     background-color: rgb(6, 39, 187);
     color: white;
   padding: 10px 10px 10px;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   outline: none;
   cursor: pointer;
 }
+
+
 .icons{
   color: rgb(20, 20, 172);
   margin-top: 20px;
@@ -63,6 +67,13 @@ button{
 }
 .icons i{
   margin-right: 10px;
+  cursor: pointer;
 }
+.button:hover{
+  color: white;
+  background-color: wh;
+}
+
+
 
 
