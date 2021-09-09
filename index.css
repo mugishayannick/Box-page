@@ -73,6 +73,21 @@ button{
   color: white;
   background-color: wh;
 }
+/* Mobile Designs */
+@media (min-width:375px) {
+  .flex{
+      flex-direction: column;
+  }
+  .container{
+      text-align: center;
+  }
+  .box{
+      /* flex-direction: column-reverse; */
+      flex-wrap: wrap;
+  }
+  
+}
+
 
 
 
